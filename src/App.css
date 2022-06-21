@@ -1,0 +1,140 @@
+*{
+  padding: 0;
+  margin: 0;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+img{
+  width: 100%;
+}
+
+.Title{
+  font-size: 2.5rem;
+  font-weight: 600;
+
+}
+
+.subTitle{
+  font-size: 2rem;
+  font-weight: 600;
+}
+
+.text{
+  font-size: 1.75rem;
+  font-weight: 400;
+  color: rgb(97, 95, 92);
+}
+
+.App{
+  background-color: lightcyan;
+  width: 100%;
+  min-height: 100vh;
+  gap: 20px;
+}
+
+.FlexColumn{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.Flexrow{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.FormContainer{
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  padding: 30px;
+  background-color: rgba(33, 5, 240, 0.379);
+}
+
+.offcanvas-header{
+  width: 100%;
+}
+
+.header-offcanvas-Container{
+  width: 50%;
+  text-align: right;
+}
+
+.columns2{
+  width: 50%;
+}
+.columns1{
+  width: 100%;
+}
+
+.NavContainer{
+  display: flex;
+  width: 20.53%;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.button{
+  width: 30%;
+  aspect-ratio: 1.5/1;
+  background: linear-gradient(70deg, rgba(24, 18, 142, 0.637), rgba(73, 4, 87, 0.626));
+  font-size: 2rem;
+  border-radius: 20px;
+}
+
+.button2{
+  width: 9%;
+  aspect-ratio: 1.5/1;
+  background: linear-gradient(70deg, rgba(24, 18, 142, 0.637), rgba(73, 4, 87, 0.626));
+  font-size: 1.75rem;
+  border-radius: 20px;
+}
+.button3{
+  margin: 0 30%;
+  width: 120px;
+  aspect-ratio: 1.5/1;
+  background: linear-gradient(70deg, rgba(24, 18, 142, 0.637), rgba(73, 4, 87, 0.626));
+  font-size: 1.75rem;
+  border-radius: 20px;
+}
+
+.offcanvas{
+  background-color: rgb(134, 95, 202);
+  padding: 20px;
+}
+
+.Form{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.CardContainer{
+  gap: 30px;
+  padding: 30px;
+  flex-wrap: wrap;
+}
+
+.UserContainer{
+  border: solid 3px rgba(73, 4, 87, 0.626);
+  flex-wrap: wrap;
+  width: 80%;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.InfoContainer{
+  width: 100%;
+
+}
+.ButtpnContainer{
+  text-align: end;
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+  gap: 40px;
+}
